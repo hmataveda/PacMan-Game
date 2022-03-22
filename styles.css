@@ -1,0 +1,75 @@
+#board {
+    position: relative;
+    width: 600px;
+    background-color: cadetblue;
+    margin: 150px auto 0;
+
+}
+
+#scoreBoard {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.row {
+    line-height: 0;
+}
+
+.wall {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-color: rgb(43, 54, 206);
+}
+
+.path {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-color: black;
+}
+
+.goldCoin {
+    background-image: url('./ninjamanimages/gold-food.png');
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.ongiri {
+    background-image: url("./ninjamanimages/onigiri.png");
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.pacman {
+    position: absolute;
+    background-image: url("./ninjamanimages/pacman.gif");
+    height: 15px;
+    width: 15px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 1px;
+    background-repeat: no-repeat;
+}
+
+.ghosts {
+    background-image: url("./ninjamanimages/bluey.gif");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+}
